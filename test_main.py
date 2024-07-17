@@ -2,7 +2,7 @@
 This is a test suite for the main function.
 """
 import unittest
-import main
+from main import target
 
 
 class TestMainFunction(unittest.TestCase):
@@ -14,22 +14,22 @@ class TestMainFunction(unittest.TestCase):
         """
         Test cases for positive integers.
         """
-        self.assertEqual(main(3), 9)
-        self.assertEqual(main(4), 16)
-        self.assertEqual(main(10), 100)
+        self.assertEqual(target(3), 9)
+        self.assertEqual(target(4), 16)
+        self.assertEqual(target(10), 100)
 
     def test_main_zero(self):
         """
         Test case for zero.
         """
-        self.assertEqual(main(0), 0)
+        self.assertEqual(target(0), 0)
 
     def test_main_negative(self):
         """
         Test cases for negative integers.
         """
-        self.assertEqual(main(-2), 4)
-        self.assertEqual(main(-5), 25)
+        self.assertEqual(target(-2), 4)
+        self.assertEqual(target(-5), 25)
 
 
 if __name__ == '__main__':

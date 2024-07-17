@@ -3,7 +3,7 @@ This is the main file of the project.
 """
 
 
-def main(num):
+def target(num):
     """
     This is the main function of the project.
     """
