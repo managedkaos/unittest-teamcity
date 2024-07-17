@@ -1,2 +1,2 @@
 # unittest-teamcity
-Testing out Python unittest lib with TeamCity/.
+Testing out Python unittest lib with TeamCity.
