@@ -58,6 +58,7 @@ object Build : BuildType({
             environment = venv {
             }
             command = unittest {
+                scriptArguments = "discover"
             }
         }
     }
