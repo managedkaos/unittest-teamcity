@@ -11,4 +11,4 @@ def target(num):
 
 
 if __name__ == "__main__":
-    print(main(5))
+    print(target(5))
